@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f9f9f9;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Colors Section */
+  .color-palette {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .color-box {
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .primary { background: #FF5A5F; }
+  .secondary { background: #00A699; }
+  .tertiary { background: #FC642D; }
+  
+  /* Typography Section */
+  .typography-samples {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .font-sample {
+    margin: 10px 0;
+  }
+  
+  .heading1 {
+    font-size: 44px;
+    font-weight: bold;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  /* Buttons Section */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .primary-button {
+    background: #FF5A5F;
+    color: #fff;
+  }
+  
+  .secondary-button {
+    background: #00A699;
+    color: #fff;
+  }
+  
